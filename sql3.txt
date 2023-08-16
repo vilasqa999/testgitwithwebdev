@@ -1,0 +1,166 @@
+select * from Staging2.dbo.pgpending where ObjId=9333535 
+select * from Staging2.dbo.cdpending where pageid=9333535  and  status >99  order by Sequence,layer,Position,ObjId
+
+select * from Staging2.dbo.pgdata12 where ObjId=9328453 
+select * from Staging2.dbo.cddata12 where pageid=9328306  and  status >99  order by Sequence,layer,Position,ObjId
+
+select * from Staging2.dbo.articles where ObjId=9328453 
+
+select * from Staging2.dbo.libimages1 where objid=5475456
+
+select * from Staging2.dbo.libvideos1 where objid=5475154
+select * from Staging2.dbo.libAudios1 where objid=5475789
+
+select * from Staging2.dbo.Verticals where VertId=5475032 
+
+
+
+select * from Staging2.dbo.pgpending where ObjId=9333535 
+
+select * from Staging2.dbo.cdpending where pageid=17720421  and  status >99  order by Sequence,layer,Position,ObjId
+
+select * from Staging2.dbo.pgdata12 where ObjId=9328453 
+select * from Staging2.dbo.cddata12 where pageid=9328306  and  status >99  order by Sequence,layer,Position,ObjId
+
+select * from Staging2.dbo.articles where ObjId=9328453 
+
+select * from Staging2.dbo.libimages1 where objid=9306041
+
+select * from Staging2.dbo.libvideos1 where objid=5475154
+select * from Staging2.dbo.libAudios1 where objid=5475789
+
+select * from Staging2.dbo.Verticals where VertId=5475032 
+
+
+select * from Staging2.dbo.libimages1 where objid=17744323
+
+select * from Staging2.dbo.pgusers1 where  objid= 5467190
+
+
+select * from Staging4.dbo.libSvg1 where objid=9306041
+
+
+
+
+
+select * from Staging2.dbo.pgpending where ObjId=17942992 
+
+select * from Staging2.dbo.cdpending where pageid=17720421  and  status >99  order by Sequence,layer,Position,ObjId
+
+select * from Staging2.dbo.pgdata6 where ObjId=17942992 
+
+
+select * from Staging2.dbo.cddata12 where pageid=9328306  and  status >99  order by Sequence,layer,Position,ObjId
+
+select * from Staging2.dbo.articles where ObjId=9328453 
+
+select * from Staging2.dbo.libimages1 where objid=9306041
+
+select * from Staging2.dbo.libvideos1 where objid=5475154
+
+select * from Staging2.dbo.libAudios1 where objid=11074973
+
+select * from Staging2.dbo.Verticals where VertId=17886705 
+
+select * from Staging2.dbo.pgdata12 where VertId=17886705 
+
+select * from Staging2.dbo.libimages1 where objid=17744323
+
+select email,pwd from Staging2.dbo.pgusers1 where  objid= 15857703
+
+
+select * from Staging4.dbo.libSvg1 where objid=9306041
+
+select CdnId,TotalUsage,SizeLimit from Staging2.dbo.cdn where sizelimit > 1073741824   -->  5482189, 5562205,9102861
+
+
+select objid,email,pwd,status from Staging2.dbo.pgusers1 where email like '%kumarrakshay21@gmail.com%'
+
+----------UPDATE Staging2.dbo.pgusers1   SET status= 130  WHERE objid=15363129
+
+
+select * from Staging2.dbo.Verticals where siteroot like '%moneyos%'
+
+
+add by url-
+
+https://picsum.photos/200/300.jpg
+
+
+https://images.freeimages.com/images/large-previews/2e8/shikra-female-1641968.jpg
+
+https://moneyoscar.com/stories/10-low-stress-jobs-that-pay-well
+
+
+
+
+
+select * from Staging2.dbo.AiUsers 
+
+select * from Staging2.dbo.AiTeams 
+
+insert into AiUsers (AiUserId,EndUserKey,AiUserPerms) values 
+(1,'bilston641',240)
+
+
+select * from Staging2.dbo.AiTeamUsers
+insert into AiUsers (AiUserId,EndUserKey,AiUserPerms) values 
+(1,'bilston641',240)
+
+select * from Staging2.dbo.AiTeamUsers
+
+insert into Staging2.dbo.AiTeamUsers (AiUserId,AiTeamId,CreditLimit,ImageGenPerms) values 
+(5466558,'testorg5466558',180)
+
+
+select * from Staging2.dbo.ValuesAiUserPerms
+
+select * from Staging2.dbo.AiImages1
+
+select * from Staging2.dbo.AiGenerators
+
+select * from Staging2.dbo.ValuesAiGenStatus
+
+select * from Staging2.dbo.ValuesAiGenStatus
+
+
+2077
+
+3577- 4080
+select * from Staging2.dbo.pgpending where ObjId=9333535 
+
+select * from Staging2.dbo.cdpending where pageid=17720421  and  status >99  order by Sequence,layer,Position,ObjId
+
+select * from Staging2.dbo.pgdata12 where ObjId=9328453 
+select * from Staging2.dbo.cddata12 where pageid=9328306  and  status >99  order by Sequence,layer,Position,ObjId
+
+select * from Staging2.dbo.pgusers1 where ObjId=5466558 
+
+select * from Staging2.dbo.libimages1 where objid=9306041
+
+select * from Staging2.dbo.libvideos1 where objid=5475154
+select * from Staging2.dbo.libAudios1 where objid=5475789
+
+select * from Staging2.dbo.Verticals where VertId=5475032 
+
+testorg
+
+insert into Staging2.dbo.AiUsers (AiUserId,EndUserKey,AiUserPerms) values 
+(5466558,'testorg5466558',180)
+
+StatusCode: 400, ReasonPhrase: 'BAD REQUEST', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:  {    Date: Fri, 10 Mar 2023 07:08:15 GMT    Connection: keep-alive    Access-Control-Allow-Origin: *    OpenAI-Version: 2020-10-01    OpenAI-Organization: user-2php6m7063ka9qfssyugmicx    X-Request-ID: e1b9363a0f6a00695b5c2af66a0f0173    OpenAI-Processing-Ms: 80    Strict-Transport-Security: max-age=15724800; includeSubDomains    Content-Type: application/json    Content-Length: 172  }
+
+
+
+
+https://stories.whatahotel.com/prague-best-hotels
+https://moneyoscar.com/stories/7-stocks-that-are-showing-signs-of-recovery
+https://animals.visualstories.com/quizzes/a-quiz-about-the-majestic-jaguar
+
+When you refresh https://visualstories.com/ai/text-to-image page giving "This visualstories.com page can’t be found"
+
+https://aiart.visualstories.com/aimedia/19415868/dlimg/19441584/19441584-1.png
+https://aiart.visualstories.com/aimedia/19415868/dlimg/19441584/19441584-1th.png
+
+
+https://www.visualstories.dev/api/v1/14390506-prabhasakshi-14390515-11/get?url=//www.prabhasakshi.com/web-stories/storylists.xml
